@@ -6,7 +6,7 @@ Este Data Warehouse é projetado para armazenar, processar e analisar dados hist
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
   <rect width="100%" height="100%" fill="none" stroke="#d2cbf3" stroke-width="5" rx="15" ry="15" />
-  <image href="dw_acoes.svg" width="100%" height="100%" />
+  <image href="https://github.com/AlefRP/sql_dwacoes/blob/main/dw_acoes.svg" width="100%" height="100%" />
 </svg>
 
 ## Funcionalidades
