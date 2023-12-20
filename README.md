@@ -4,10 +4,7 @@
 
 Este Data Warehouse é projetado para armazenar, processar e analisar dados históricos e em tempo real de ações financeiras. Ele permite que analistas e investidores façam consultas complexas, gerem relatórios e obtenham insights para tomar decisões informadas no mercado de ações.
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-  <rect width="100%" height="100%" fill="none" stroke="#d2cbf3" stroke-width="5" rx="15" ry="15" />
-  <image href="https://github.com/AlefRP/sql_dwacoes/blob/main/dw_acoes.svg" width="100%" height="100%" />
-</svg>
+![Nome da imagem](https://raw.githubusercontent.com/AlefRP/sql_dwacoes/main/dw_acoes.svg){: style="border: 5px solid #d2cbf3; border-radius: 20px;"}
 
 ## Funcionalidades
 
