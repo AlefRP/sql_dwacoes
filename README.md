@@ -4,9 +4,9 @@
 
 Este Data Warehouse é projetado para armazenar, processar e analisar dados históricos e em tempo real de ações financeiras. Ele permite que analistas e investidores façam consultas complexas, gerem relatórios e obtenham insights para tomar decisões informadas no mercado de ações.
 
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <image x="0" y="0" width="100" height="100" xlink:href="dw_acoes.svg" />
-  <rect x="0" y="0" width="100" height="100" rx="10" ry="10" stroke="#c7bcee" stroke-width="2" fill="none" />
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <rect width="100%" height="100%" fill="none" stroke="#d2cbf3" stroke-width="5" rx="15" ry="15" />
+  <image href="dw_acoes.svg" width="100%" height="100%" />
 </svg>
 
 ## Funcionalidades
