@@ -1,7 +1,5 @@
 # Data Warehouse para Análise de Ações Financeiras
 
-![](https://i.imgur.com/your-icon-link.png) Visão Geral
-
 ## Visão Geral
 
 Este Data Warehouse é projetado para armazenar, processar e analisar dados históricos e em tempo real de ações financeiras. Ele permite que analistas e investidores façam consultas complexas, gerem relatórios e obtenham insights para tomar decisões informadas no mercado de ações.
