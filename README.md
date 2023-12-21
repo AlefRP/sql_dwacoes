@@ -1,6 +1,6 @@
 # Data Warehouse para Análise de Ações Financeiras
 
-## Visão Geral
+## 👓 Visão Geral
 
 Este Data Warehouse é projetado para armazenar, processar e analisar dados históricos e em tempo real de ações financeiras. Ele permite que analistas e investidores façam consultas complexas, gerem relatórios e obtenham insights para tomar decisões informadas no mercado de ações.
 
@@ -8,7 +8,7 @@ Este Data Warehouse é projetado para armazenar, processar e analisar dados hist
  <img src="https://raw.githubusercontent.com/AlefRP/sql_dwacoes/main/dw_acoes.svg" alt="DW Ações" style="border-radius: 20px;" />
 </kbd>
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
 - **Armazenamento de Dados**: Estruturação de dados em esquema estrela para otimização de consultas analíticas.
 - **Consultas Avançadas**: Capacidade de executar análises profundas com várias dimensões e métricas.
@@ -16,17 +16,17 @@ Este Data Warehouse é projetado para armazenar, processar e analisar dados hist
 - **Triggers**: Atualização automática de volumes totais após transações.
 - **Views**: Relatórios predefinidos para análises rápidas.
 
-## Estrutura do Banco de Dados
+## 🏗️ Estrutura do Banco de Dados
 
 O banco de dados é composto por tabelas de dimensão (`dim_tempo`, `dim_acoes`, `dim_mercado`) e uma tabela de fatos (`fatos_acoes`), seguindo um esquema estrela clássico.
 
-## Como Configurar
+## 🔧 Como Configurar
 
 1. **Criação do Banco de Dados**: Execute os scripts SQL fornecidos para criar o esquema do banco de dados.
 2. **População de Dados**: Use os procedimentos armazenados para inserir dados nas tabelas de dimensão e fatos.
 3. **Atualização e Manutenção**: Configure os triggers para manter a integridade e atualização dos dados em tempo real.
 
-## Uso
+## 💻 Uso
 
 Para executar consultas e gerar relatórios, utilize as views definidas ou escreva suas próprias consultas SQL. Exemplos de consultas e instruções sobre como usar procedimentos armazenados e triggers estão documentados no diretório `/sql`.
 
@@ -38,7 +38,7 @@ Para adicionar uma nova ação:
 CALL AdicionarAcao('AAPL', 'Apple Inc.', 'Tecnologia', 'NASDAQ');
 ```
 
-## Utilizando Views
+## 🔍 Utilizando Views
 
 Para visualizar o relatório de preços das ações:
 
@@ -46,11 +46,11 @@ Para visualizar o relatório de preços das ações:
 SELECT * FROM vw_relatorio_precos_acoes;
 ```
 
-## Suporte
+## ❓ Suporte
 
 Se você encontrar algum problema ou tiver alguma dúvida sobre como configurar e usar este Data Warehouse, por favor, abra uma issue no repositório do GitHub. Faremos o possível para ajudar e melhorar a documentação conforme necessário.
 
-## Contribuições
+## 🤝 Contribuições
 
 Contribuições para o projeto são muito bem-vindas. Siga os passos abaixo para contribuir:
 
@@ -60,10 +60,10 @@ Contribuições para o projeto são muito bem-vindas. Siga os passos abaixo para
 4. Faça push para a branch: `git push origin minha-nova-feature`.
 5. Envie um pull request.
 
-## Licença
+## 📜 Licença
 
 Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) no repositório para mais detalhes.
 
-## Contato
+## 📧 Contato
 
 Para contato direto, envie uma mensagem para o e-mail fornecido no perfil do GitHub ou utilize as ferramentas de comunicação do próprio GitHub.
