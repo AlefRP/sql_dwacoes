@@ -56,7 +56,7 @@ Contribuições para o projeto são muito bem-vindas. Siga os passos abaixo para
 
 1. Faça o fork do projeto.
 2. Crie uma branch para suas mudanças: `git checkout -b minha-nova-feature`.
-3. Faça commit das suas alterações: `git commit -am 'Adiciona alguma feature'`.
+3. Faça commit das suas alterações: `git commit -m 'Adiciona alguma feature'`.
 4. Faça push para a branch: `git push origin minha-nova-feature`.
 5. Envie um pull request.
 
